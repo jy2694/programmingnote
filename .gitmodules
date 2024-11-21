@@ -1,0 +1,7 @@
+[submodule "themes/plague"]
+	path = themes/plague
+	url = https://github.com/brianreumere/plague.git
+[submodule "public"]
+	path = public
+	url = https://github.com/jy2694/jy2694.github.io.git
+	branch = main

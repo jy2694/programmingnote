@@ -1,0 +1,29 @@
+baseURL = "https://jy2694.github.io"
+languageCode = "ko-kr"
+title = "Programming Note"
+
+[module]
+  [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    ignoreImports = true
+    path = "github.com/brianreumere/plague"  # Theme
+
+[params]
+  colors = "default"
+  siteHeaderText = "Programming Note"
+
+  [params.hcard]
+    avatar = "images/profile.jpg"
+    fullName = "Jeyeon Kim"
+    showLocation = true
+    city = "Seoul"
+    country = "Repulic of Korea"
+
+    social = [
+      { platform = "email", identity = "wpdus2694@naver.com", url_pattern = "mailto:%s" },
+      { platform = "github", identity = "jy2694", url_pattern = "https://github.com/%s" }
+    ]
+
+[frontmatter]
+  date = [':filename', ':default']
